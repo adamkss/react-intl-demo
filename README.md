@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small application to showcase the primary functionality of `react-intl` for easy React internationalization.</br></br>
+This is a demo application that has 2 languages preconfigured: German and English. The default one is English.
+To change between the two manually set the `locale` constant in `App.js` to either `en` or `de`.
 
 ## Available Scripts
 
@@ -13,11 +15,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+### `yarn extract-intl`
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Goes through the code and extracts the message keys (IDs) into the locale specific files. It also prefills the default locale with the default messages defined in the code (if any).
 
 ### `yarn build`
 
